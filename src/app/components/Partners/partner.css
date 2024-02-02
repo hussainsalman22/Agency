@@ -1,0 +1,14 @@
+.text-stroke3{
+    -webkit-text-stroke: 2px red ;
+}
+.animation-scrolling-text{
+    animation: scrolltext 20s linear infinite;
+}
+@keyframes scrolltext {
+    0%{
+        transform: translateX(100%)
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

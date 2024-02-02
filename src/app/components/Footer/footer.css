@@ -1,0 +1,27 @@
+.input{
+    background-color: black;
+    border: none ;
+    border-radius:10px ;
+    color: white;
+    height: 50px;
+    outline: none;
+    padding: 5px 90px 5px 15px;
+    width: 100%;
+}
+.btn{
+    background: #b86807;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    overflow: hidden;
+    padding: 7px 25px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    transition: all .34s ease-in;
+}
+.btn:hover{
+    background: white;
+    color: #b86807;
+}

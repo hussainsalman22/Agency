@@ -1,0 +1,48 @@
+.banner{
+    background-image: url("../../assets/bghome.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+.cs-style-1{
+    height: calc(100vh + 100px);
+    min-height:100vh;
+    padding: 250 0 170px;
+    padding-top: 100px;
+    position: relative;
+}
+.csshape1{
+    top: 30%;
+    border-bottom: 9px solid transparent;
+    border-left: 14px solid red;
+    border-top: 9px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    animation: semi-rotate-anim 8s cubic-bezier(0.4,0,0.2,1) infinite ;
+    
+}
+@keyframes semi-rotate-anim {
+    50%{
+        transform: translateY(25px) rotate(-53deg);
+        animation-timing-function: cubic-bezier(-4, 0, 1, 2);
+    }
+    
+}
+.csshape1:first-child{
+    left: 10%;
+    top: 10%;
+}
+.csshape1:nth-child(2){
+    left: 72%;
+    top: 30%;
+    transform: rotate(-15deg);
+}
+.csshape1:nth-child(3){
+    left: 35%;
+    top: 50%;
+    transform: rotate(-30deg);
+}

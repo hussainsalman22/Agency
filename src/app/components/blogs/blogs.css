@@ -1,0 +1,27 @@
+.csshape4{
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 10%;
+
+}
+.csshape4:nth-child(1){
+    left: 5%;
+    top: 32%;
+    height: 100px;
+    width: 100px;
+    animation: animo-y 8s infinite;
+}
+.csshape4:nth-child(2){
+    left: 15%;
+    top:56%;
+    height: 220px;
+    width: 220px;
+}
+@keyframes animo-y {
+    50%{
+        animation-timing-function: cubic-bezier(0.55,0,-2,1);
+        transform: translateY(30px);
+    }
+    
+}
